@@ -5,14 +5,20 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "open": "npm run build && open dist/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.22.1",
     "webpack": "^4.12.2",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "xml-loader": "^1.2.1"
   },
   "dependencies": {
     "lodash": "^4.17.10"
