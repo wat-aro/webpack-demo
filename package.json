@@ -20,6 +20,7 @@
     "style-loader": "^0.22.1",
     "webpack": "^4.12.2",
     "webpack-cli": "^3.0.8",
+    "webpack-manifest-plugin": "^2.0.4",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
